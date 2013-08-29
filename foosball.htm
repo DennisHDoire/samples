@@ -1,0 +1,30 @@
+﻿<html>
+<head>
+    <title>Foosball example</title>
+    <script type="text/javascript">
+function foosball() {
+"use strict"; 
+var i;
+    for (i = 1; i <= 100; i++) {
+     if ( ((i % 3) === 0) && ((i % 5) === 0) ) {
+	document.write("foosball<br>");
+     }
+     else if ((i % 3) === 0) {
+	document.write("foos<br>");
+     }
+     else if ((i % 5) === 0) {
+	document.write("ball<br>");
+     }
+     else {
+	document.write(i + "<br>");
+     }
+    }
+}
+    </script>
+</head>
+<body>
+<script language="javascript">
+    foosball();
+</script>
+</body>
+</html>
